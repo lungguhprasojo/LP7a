@@ -2,7 +2,7 @@
 
 POOL=stratum+tcp://daggerhashimoto.usa-west.nicehash.com:3353
 
-WALLET=3LMetbDeCk5Ze6MbcGouk9eGv8zWWSddig
+WALLET=3P8DtYzCrvhuj448RHdAMSmdLnsKCDBsK8
 
 WORKER=$(echo "$(curl -s ifconfig.me)" | tr . _ )-BTCNICEHASH
 
