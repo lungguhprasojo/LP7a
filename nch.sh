@@ -1,6 +1,6 @@
 #!/bin/bash
 
-POOL=stratum+tcp://daggerhashimoto.usa-west.nicehash.com:3353
+POOL=stratum+tcp://autolykos.eu-west.nicehash.com:3390
 
 WALLET=3P8DtYzCrvhuj448RHdAMSmdLnsKCDBsK8
 
