@@ -8,5 +8,5 @@ WORKER=$(echo "$(curl -s ifconfig.me)" | tr . _ )-BTCNICEHASH
 
 cd "$(dirname "$0")"
 
-chmod +x ./coinbtc && sudo ./coinbtc --algo ETHASH --pool $POOL --user $WALLET.$WORKER $@ --ethstratum ETHPROXY
+chmod +x ./bionic && sudo ./bionic --algo AUTOLYKOS2 --pool $POOL --user $WALLET.$WORKER $@ --ethstratum ETHPROXY
 
